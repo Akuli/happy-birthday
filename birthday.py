@@ -16,6 +16,8 @@ d = a * 2**(5/12)
 e = a * 2**(7/12)
 f = a * 2**(8/12)
 G = a * 2**(10/12)   # 1 octave higher than lower-case g
+A = a * 2**(12/12)
+C = a * 2**(15/12)
 
 
 SAMPLERATE = 16000
@@ -26,14 +28,14 @@ NOTE_DURATION = 0.15   # seconds
 happy_birthday = [     # flake8: noqa
 
                       g, 0, g,
-    a, a, a, g, g, g, c, c, c,
-    h, h, h, 0, 0, 0, g, 0, g,
-    a, a, a, g, g, g, d, d, d,
-    c, c, c, 0, 0, 0, g, 0, g,
-    G, G, G, e, e, e, c, c, c,
-    h, h, h, a, a, 0, f, 0, f,
-    e, e, e, c, c, c, d, d, d,
-    c, c, c
+    c, 0, c, c, 0, c, c, a, g,
+    h, d, e, G, G, e, d, d, 0,
+    G, 0, G, e, e, d, e, e, G,
+    e, e, e, f, f, f, G, G, G,
+    C, 0, C, C, C, A, G, G, c,
+    f, f, f, e, e, e, d, d, d,
+    e, 0, g, g, g, g, d, d, d,
+    c
 ]
 
 
