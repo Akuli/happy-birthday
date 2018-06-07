@@ -10,7 +10,7 @@ import wave
 # these frequencies are in hertz
 a = 220
 g = a * 2**(-2/12)
-h = a * 2**(2/12)
+h = a * 2**(2/12)   # also known as b in some other countries
 c = a * 2**(3/12)
 d = a * 2**(5/12)
 e = a * 2**(7/12)
